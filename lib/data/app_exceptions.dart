@@ -18,3 +18,10 @@ class ServerException extends AppExceptions{
   ServerException([String? message]):super(message, 'Internet time Out');
 }
 
+class InvalidUrl extends AppExceptions{
+  InvalidUrl([String?message]) : super(message, 'Invalid Url');
+}
+
+class FetchDataException extends AppExceptions{
+  FetchDataException([String?message]):super(message, '');
+}
