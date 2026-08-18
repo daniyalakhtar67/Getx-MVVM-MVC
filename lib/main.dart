@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:getx_mvvc/res/routes/routes.dart';
+import 'package:getx_mvvc/res/routes/routes_name.dart';
 import 'package:getx_mvvc/view/Splash_Screen.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       getPages: AppRoutes.approutes(),
-      home:SplashScreen(),
+      initialRoute: RountesName.splashScreen,
     );
   }
 }
