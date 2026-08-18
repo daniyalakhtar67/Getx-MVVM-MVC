@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:getx_mvvc/data/app_exceptions.dart';
+import 'package:getx_mvvc/res/components/internet_exception.dart';
 import 'package:getx_mvvc/res/getx_loclization/language.dart';
 import 'package:getx_mvvc/res/routes/routes.dart';
 import 'package:getx_mvvc/res/routes/routes_name.dart';

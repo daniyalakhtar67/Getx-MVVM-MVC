@@ -6,6 +6,5 @@ class AppRoutes{
     GetPage(name: RountesName.splashScreen, page: ()=>SplashScreen(),transition: Transition.leftToRightWithFade,
     transitionDuration: Duration(milliseconds: 250)
     ),
-
   };
 }

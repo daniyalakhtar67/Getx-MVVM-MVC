@@ -1,3 +1,3 @@
-class AppFonts{
-  static const String robotofont = 'Schyler';
-}
+// class AppFonts{
+//   static const String robotofont = 'Schyler';
+// }
