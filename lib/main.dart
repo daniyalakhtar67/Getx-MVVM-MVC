@@ -22,10 +22,7 @@ class MyApp extends StatelessWidget {
       translations: Language(),
       locale: Locale('en','US'),
       fallbackLocale: Locale('en','US'),
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.blue,
-      ),
+
       getPages: AppRoutes.approutes(),
       initialRoute: RountesName.splashScreen,
     );

@@ -6,6 +6,10 @@ class Language extends Translations{
     'en_US':{
       'email_hint':'Enter Email',
       'internet_exception':'We\'re unable to show result \n Please check your data \n connection',
+      'general_exception':'We\'re unable to process your request \n Please try again',
+      'login':'login',
+      'email':'Enter your Email',
+      'password':'Enter password',
     },
     'ur_PAK':{
       'email_hint':'ای میل درج کریں',
